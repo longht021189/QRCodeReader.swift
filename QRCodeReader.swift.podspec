@@ -11,6 +11,9 @@ Pod::Spec.new do |s|
   s.screenshot       = 'http://yannickloriot.com/resources/qrcodereader.swift-screenshot.jpg'
 
   s.ios.deployment_target = '8.0'
+  
+  s.swift_versions = ['4.0', '4.2', '5.0']
+  s.swift_version = "5.0"
 
   s.framework    = 'AVFoundation'
   s.source_files = 'Sources/*.swift'
